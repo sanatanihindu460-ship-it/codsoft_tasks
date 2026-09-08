@@ -4,8 +4,7 @@ task_list = []
 
 while True:
     try:
-        choice = int(input(
-            "\nEnter your choice here\n1. Add a task\n2. View all tasks\n3. Mark a task as complete\n4. Edit a task\n5. Delete a task\n6. Update task priority\n7. Update a due date\n8. Exit\n"
+        choice = int(input("\nEnter your choice here\n1. Add a task\n2. View all tasks\n3. Mark a task as complete\n4. Edit a task\n5. Delete a task\n6. Update task priority\n7. Update a due date\n8. Exit\n"
             "Enter choice: "
         ))
     except ValueError:
